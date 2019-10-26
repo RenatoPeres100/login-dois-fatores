@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+html, body{
+	height: 100%;
+	background:#BDBDBD;
+}
+body{
+	overflow-x: hidden;
+}
+/*PÁGINA DE LOGIN*/
+.box-login{
+	box-shadow: 10px 10px 5px #888888;
+	max-width: 400px;
+	width: 100%;
+	padding: 80px 2%;
+	background:white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform:(-50%,-50%);
+}
+.box-login h2 {	
+	text-align: center;
+	font-size: 33px;
+	color: black;
+	margin: 25px;
+	font-family: monospace;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.box-login input[type=text],
+.box-login input[type=password]{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ccc;
+	padding-left: 8px;
+	margin-top: 8px;
+}
+.box-login input[type=submit]{
+	width: 100%;
+	height: 45px;
+	cursor: pointer;
+	margin-top: 10px;
+	background: #1de9b6;
+	color: white;
+	border: 0;
+	font-size: 14px;
+	
+}
+
+/*Box error*/
+.erro-box{
+	width: 100%;
+	padding: 4px 2%;
+	text-align: center;
+	color: white ;
+	background:#f75353;
+	font-size: 18px;
+}/*FIM DE PAGINA DE LOGIN*/
+/*PAINEL DE CONTROLE*/
+
+.clear{clear:both;}
+.center{padding: 0 2%;margin: 0 auto;}
+
+.loggout{
+	float: right;
+}
+.loggout a {
+	padding: 0 20px;
+	position: relative;
+	top: 4px;
+	text-decoration: none;
+	color: white;
+	font-size:25x;
+}
